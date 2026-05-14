@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "My Notes",
+    "slug": "my-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mynotes.app"
+    },
+    "android": {
+      "package": "com.mynotes.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "mynotes",
+    "updates": {
+      "enabled": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "350e67d8-d4cd-42ef-95fc-a8599abfe21d"
+      }
+    }
+  }
+}
